@@ -33,3 +33,23 @@ const myfunc=function (){
 }
 
 console.log(typeof(bigno));
+
+
+//**************************************************************************** */
+//stack(primitive)->jo bhe variable declare hoga copy milta h ,heap(non primitive) memory->jo bhe change karenge original value mai hoga
+
+let myname="shrutika"
+let anothername="chai"
+console.log(anothername);
+console.log(myname)
+
+let user1={
+    email:"user@google.com",
+    upi:"hbfbgkb"
+}
+let user2=user1
+user2.email="gdgjh@google.com"
+console.log(user1.email);
+console.log(user2.email);
+
+
